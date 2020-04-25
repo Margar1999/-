@@ -94,7 +94,6 @@ class My_prog(App):
         all.play()
         instance.background_color = [random(), random(), random(), random()]
 
-
     # Method, for  app class  which  return  the widget tree  in the piano aplication
 
     def build(self):
@@ -108,8 +107,6 @@ class My_prog(App):
         self.text_input.pos = (50, 590 )
         self.text_input.size_hint = (0.86,    .10)
         self.text_input.background_color =[0.70, 0.71, 0.79, 0.50]
-
-
 
         verevi_mas.add_widget(self.text_input)
 
@@ -129,18 +126,8 @@ class My_prog(App):
 
         return verevi_mas
 
-
 My_prog.title = "Пианино"
 
 
 if __name__ =="__main__":
     My_prog().run()
-
-
-
-
-
-
-
-
-
